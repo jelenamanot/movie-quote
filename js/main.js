@@ -5,7 +5,7 @@ $(document).ready(function($) {
 
         $.ajaxSetup({cache:false});
         
-        $.getJSON("http://mysafeinfo.com/api/data?list=moviequotes&format=json",function(data) {
+        $.getJSON("https://api.myjson.com/bins/8aoyp",function(data) {
             
             //Show blue quote section
             $('#quote').slideDown();
