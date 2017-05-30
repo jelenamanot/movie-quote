@@ -1,0 +1,136 @@
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 68px;
+  letter-spacing: 0;
+  line-height: 62px;
+  font-weight: 700;
+  color: #ff533d;
+}
+
+h2 {
+  font-size: 58px;
+  color: #31487c;
+  margin-bottom: 8%;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 26px;
+  color: #1b2845;
+}
+
+p {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: #ffe4b7;
+}
+
+.centerIt {
+  display: flex;
+  justify-content: center;
+}
+
+.question {
+  margin-top: 8%;
+  padding: 5%;
+}
+
+footer {
+  color: #31487c;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 8%;
+}
+footer a {
+  color: #ff533d;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ff533d;
+  text-decoration: underline;
+}
+
+.btn {
+  background: #ff533d;
+  text-decoration: none;
+  padding: 12px 30px;
+  color: #fff;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+  background-color: #ff6a57;
+  color: #31487c;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.quoteHere {
+  display: none;
+  background-color: #a0b1d9;
+  border: 1px solid grey;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  padding: 5% 10% 2% 10%;
+}
+.quoteHere h3 {
+  text-align: center;
+}
+.quoteHere p {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1370px) {
+  .question {
+    margin-top: 2%;
+    padding: 3%;
+  }
+
+  h1, h2 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-size: 42px;
+    line-height: 47px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .quoteHere {
+    padding: 4% 10% 2% 10%;
+  }
+
+  footer {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .question {
+    margin-top: 15%;
+  }
+
+  h1, h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+}

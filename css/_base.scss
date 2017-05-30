@@ -1,0 +1,29 @@
+body {
+    background-color: $bgColor;
+}
+
+.centerIt {
+    display: flex;
+    justify-content: center;
+}
+
+.question {
+    margin-top: 8%;
+    padding: 5%;
+    
+}
+
+footer {
+    color: $secondMain;
+    font-size: 14px;
+    text-align:center;
+    margin-top: 8%;
+    a {
+        color: $mainColor;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $mainColor;
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,14 @@
+.quoteHere {
+    display: none;
+    background-color: lighten($secondMain, 40);
+    border: 1px solid grey;
+    @include border-radius(40px);
+    padding: 5% 10% 2% 10%;
+
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: right;
+    }
+}

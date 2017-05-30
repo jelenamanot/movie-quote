@@ -1,0 +1,23 @@
+h1 {
+    font-family: $sansLetter;
+    font-size: 68px;
+    letter-spacing: 0;
+    line-height: 62px;
+    font-weight: 700;
+    color: $mainColor;
+
+}
+h2 {
+    @extend h1; 
+    font-size: 58px;
+    color: $secondMain;
+    margin-bottom: 8%;
+}
+h3 {
+    font-family: $serifLetter;
+    font-size: 26px;
+    color: darken($secondMain, 15);
+}
+p {
+    font-family: $serifLetter;
+}
